@@ -174,7 +174,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2855659, y: 1}
+    m_SensorSize: {x: 2.2864637, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -191,7 +191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394069857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5354371, y: 1.0509001, z: -10}
+  m_LocalPosition: {x: 0.53867006, y: 1.0509001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -277,7 +277,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5354371, y: 1.0509001, z: -10}
+  m_LocalPosition: {x: -7.6926, y: -1.3491, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -480,7 +480,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2855659, y: 1}
+    m_SensorSize: {x: 2.2864637, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8235121351952b94f83ec82be9ecf65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpSpeed: 4
+  jumpSpeed: 7
 --- !u!1 &1267812906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,7 +1020,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2045289853
-  m_SortingLayer: 3
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 3625043607559282579, guid: 19fb86013d8c24d6cb8410c0aadf30fa, type: 3}
   m_Color: {r: 0.520883, g: 0.6415094, b: 0.43816304, a: 1}
