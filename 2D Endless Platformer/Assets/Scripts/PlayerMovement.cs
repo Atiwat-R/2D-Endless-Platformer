@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] float jumpSpeed = 1000.0f;
+    [SerializeField] float jumpSpeed = 7.0f;
     CapsuleCollider2D myCapsuleCollider;
     Rigidbody2D rigidbody2D;
 
