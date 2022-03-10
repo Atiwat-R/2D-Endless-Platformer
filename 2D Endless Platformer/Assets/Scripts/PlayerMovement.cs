@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     void OnJump(InputValue value)
     {
         if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Platform"))) return;
-        if (value.isPressed) rigidbody2D.velocity += new Vector2(0f, jumpSpeed);
+        if (value.isPressed) rigidbody2D.velocity += new Vector2(0f, jumpSpeed); 
     }
 
     void DamageCheck() {
