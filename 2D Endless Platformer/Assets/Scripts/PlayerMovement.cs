@@ -29,9 +29,30 @@ public class PlayerMovement : MonoBehaviour
         if (value.isPressed) rigidbody2D.velocity += new Vector2(0f, jumpSpeed * 2.0f); // Jump height boost
     }
 
-    void DamageCheck() {
-        if (myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Enemies")) || myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Hazards"))) {
-            Debug.Log("Ouch!");
+    // OnTriggerEnter2D is build-in to detect collisions and specify what happens.
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "Enemies" || other.tag == "Hazards" ) {
+            DamageCheck();
         }
     }
+
+    void DamageCheck() {
+        Debug.Log("Ouch");
+    }
+
 }
+
+
+
+// Code Storage
+
+    // void DamageCheck(Collider2D other) {
+    //     if (myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Enemies")) || myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Hazards"))) {
+    //         Debug.Log("Ouch!");
+    //     }
+    // }
+
+
+
+
+
