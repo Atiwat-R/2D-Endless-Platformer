@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
     void OnJump(InputValue value)
     {
-        if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Platform"))) return;
+        if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) && !myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Platform"))) return;
         if (value.isPressed) rigidbody2D.velocity += new Vector2(0f, jumpSpeed * 2.0f); // Jump height boost
     }
 
