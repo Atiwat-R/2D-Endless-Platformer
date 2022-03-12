@@ -185,7 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7680710188318740687, guid: c494f0afab9a1c248a8d5ca7f5ba69d6, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -268,7 +268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7680710188318740687, guid: c494f0afab9a1c248a8d5ca7f5ba69d6, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -434,7 +434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7680710188318740687, guid: c494f0afab9a1c248a8d5ca7f5ba69d6, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -629,7 +629,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4243612, y: 0.58000004, z: -10}
+  m_LocalPosition: {x: -1.4243612, y: -2.0200002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -733,7 +733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7680710188318740687, guid: c494f0afab9a1c248a8d5ca7f5ba69d6, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1512,7 +1512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7680710188318740687, guid: c494f0afab9a1c248a8d5ca7f5ba69d6, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
@@ -1845,7 +1845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7680710188318740687, guid: c494f0afab9a1c248a8d5ca7f5ba69d6, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1934,7 +1934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1046547673981785451, guid: 9f58e003263000641b90ecaf35f5199a, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1046547673981785451, guid: 9f58e003263000641b90ecaf35f5199a, type: 3}
       propertyPath: m_Enabled
@@ -2156,7 +2156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7680710188318740687, guid: c494f0afab9a1c248a8d5ca7f5ba69d6, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2370,7 +2370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1046547673981785451, guid: 9f58e003263000641b90ecaf35f5199a, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1046547673981785451, guid: 9f58e003263000641b90ecaf35f5199a, type: 3}
       propertyPath: m_Enabled
@@ -2575,7 +2575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7680710188318740687, guid: c494f0afab9a1c248a8d5ca7f5ba69d6, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
