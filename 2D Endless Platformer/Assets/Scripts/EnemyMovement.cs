@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 0.7f;
+    [SerializeField] float moveSpeed = -5f;
     Rigidbody2D rgbd2D;
     
     // Start is called before the first frame update
@@ -16,6 +16,6 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rgbd2D.velocity = new Vector2(moveSpeed, 0f);
+        rgbd2D.velocity = new Vector2(moveSpeed, rgbd2D.velocity.y); // Enemy movement. Its x-axis movement is constant to bypass surface effector, while its y-axis is affected by gravity. 
     }
 }
