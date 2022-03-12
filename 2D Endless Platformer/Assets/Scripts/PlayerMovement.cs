@@ -36,6 +36,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (value.isPressed) rigidbody2D.velocity += new Vector2(dashSpeed, 0f); // Speed Boost
     }
+    // Brake using Keyboard A
+    void OnBrake(InputValue value)
+    {
+        if (value.isPressed) rigidbody2D.velocity -= new Vector2(rigidbody2D.velocity.x/2, 0f); // Slow down by half of current velocity
+    }
 
     // OnTriggerEnter2D is build-in to detect collisions and specify what happens.
     void OnTriggerEnter2D(Collider2D other) {
