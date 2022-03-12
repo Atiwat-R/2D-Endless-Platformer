@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float jumpSpeed = 7.0f;
+    [SerializeField] float dashSpeed = 10.0f;
+
     CapsuleCollider2D myCapsuleCollider;
     Rigidbody2D rigidbody2D;
 
@@ -23,10 +25,16 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    // Jump using Keyboard Spacebar
     void OnJump(InputValue value)
     {
         if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) && !myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Platform"))) return;
         if (value.isPressed) rigidbody2D.velocity += new Vector2(0f, jumpSpeed * 2.0f); // Jump height boost
+    }
+    // Dash using Keyboard D
+    void OnDash(InputValue value)
+    {
+        if (value.isPressed) rigidbody2D.velocity += new Vector2(dashSpeed, 0f); // Speed Boost
     }
 
     // OnTriggerEnter2D is build-in to detect collisions and specify what happens.
