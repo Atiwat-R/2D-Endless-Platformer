@@ -24,4 +24,8 @@ public class ScoreManager : MonoBehaviour
         
         scoreText.text = "Score: " + Mathf.Round(scoreCount);
     }
+
+    public void AddScore(int points) {
+        scoreCount += points;
+    }
 }
