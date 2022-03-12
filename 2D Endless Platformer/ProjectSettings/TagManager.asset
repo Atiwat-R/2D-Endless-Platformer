@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemies
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Enemies
   - Hazards
   - Ground
-  - 
+  - Collectibles
   - Destroyer
   - 
   - 
@@ -46,6 +47,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 4118217797
+    locked: 0
+  - name: Collectibles
+    uniqueID: 1769304393
     locked: 0
   - name: Hazards
     uniqueID: 1880246937
