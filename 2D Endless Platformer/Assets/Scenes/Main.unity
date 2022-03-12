@@ -379,7 +379,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.029024, y: 1}
+    m_SensorSize: {x: 1.9922614, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -396,7 +396,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394069857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.38811398, y: 1.0509001, z: -10}
+  m_LocalPosition: {x: -0.5204587, y: 1.0509001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -513,7 +513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.38811398, y: -1.5491002, z: -10}
+  m_LocalPosition: {x: -0.5204587, y: -1.5491002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -790,7 +790,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.029024, y: 1}
+    m_SensorSize: {x: 1.9922614, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -807,7 +807,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693304640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.38811398, y: -1.5491002, z: -10}
+  m_LocalPosition: {x: -0.5204587, y: -1.5491002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2178,6 +2178,69 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f58e003263000641b90ecaf35f5199a, type: 3}
+--- !u!1001 &4914652211244922089
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2575439932608601330, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_Name
+      value: Zombie2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2575439932608601340, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8617572414995171723, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
+      propertyPath: jumpHeight
+      value: 30
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: de7e7bc7d24f81d43a1084ce1bccdf1d, type: 3}
 --- !u!1001 &7460660133092675825
 PrefabInstance:
   m_ObjectHideFlags: 0

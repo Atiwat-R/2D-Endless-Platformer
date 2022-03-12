@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This one runs left adsentmindedly.
+
 public class EnemyMovement1 : MonoBehaviour
 {
     [SerializeField] float moveSpeed = -5f;
