@@ -45,11 +45,11 @@ public class PlayerMovement : MonoBehaviour
     // OnTriggerEnter2D is build-in to detect collisions and specify what happens.
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Enemies" || other.tag == "Hazards" ) {
-            DamageCheck();
+            TakeDamage();
         }
     }
 
-    void DamageCheck() {
+    void TakeDamage() {
         Debug.Log("Ouch");
     }
 
