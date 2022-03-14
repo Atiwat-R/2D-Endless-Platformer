@@ -590,7 +590,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.0043442, y: 1}
+    m_SensorSize: {x: 2.029024, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -607,7 +607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394069857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4243612, y: 0.58000004, z: -10}
+  m_LocalPosition: {x: -1.3355145, y: 0.58000004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -776,7 +776,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4243612, y: -2.0200002, z: -10}
+  m_LocalPosition: {x: -1.3355145, y: -2.0200002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1237,7 +1237,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.0043442, y: 1}
+    m_SensorSize: {x: 2.029024, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1254,7 +1254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693304640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4243612, y: -2.0200002, z: -10}
+  m_LocalPosition: {x: -1.3355145, y: -2.0200002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1715,7 +1715,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 260869407}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f82b898a748cb3540bdc7ad0b92c2d33, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2999,6 +2999,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.30390847
       objectReference: {fileID: 0}
+    - target: {fileID: 375572853158134064, guid: 6cf260e959035b147b931dd34d875cef, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: f82b898a748cb3540bdc7ad0b92c2d33, type: 2}
     - target: {fileID: 375572853158134064, guid: 6cf260e959035b147b931dd34d875cef, type: 3}
       propertyPath: m_Offset.x
       value: -0.0068961564
