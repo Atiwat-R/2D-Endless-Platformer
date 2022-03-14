@@ -16,6 +16,7 @@ public class EnemyMovement2 : MonoBehaviour
     {
         rgbd2D = GetComponent<Rigidbody2D>();
         myBoxCollider = GetComponent<BoxCollider2D>();
+        rgbd2D.freezeRotation = true; // Keep Enemy upright by preventing any rotation at all.
     }
 
     // Update is called once per frame

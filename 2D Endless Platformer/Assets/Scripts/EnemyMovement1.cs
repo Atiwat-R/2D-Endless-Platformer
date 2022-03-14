@@ -13,6 +13,7 @@ public class EnemyMovement1 : MonoBehaviour
     void Start()
     {
         rgbd2D = GetComponent<Rigidbody2D>();
+        rgbd2D.freezeRotation = true; // Keep Enemy upright by preventing any rotation at all.
     }
 
     // Update is called once per frame
