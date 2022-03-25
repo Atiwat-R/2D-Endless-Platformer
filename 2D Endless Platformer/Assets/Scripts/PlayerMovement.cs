@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -61,8 +62,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // Implements GAME OVER
     void TakeDamage() {
         Debug.Log("Ouch");
+        SceneManager.LoadScene("GameOver"); // Sends Player to Game Over scene
     }
 
 }
