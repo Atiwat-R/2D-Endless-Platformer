@@ -305,7 +305,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60.4, y: 95.1}
+  m_AnchoredPosition: {x: 54, y: 95.1}
   m_SizeDelta: {x: 267.7087, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &259953583
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THE ZOMBIES HAVE TAKEN OVER. THEY THINK THEY CAN KILL ME.
+  m_text: THE ZOMBIES HAVE TAKEN OVER. THEY THINK I'M AN EASY PREY.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1093,7 +1093,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 193.7, y: 95.1}
+  m_AnchoredPosition: {x: 188, y: 95.1}
   m_SizeDelta: {x: 267.7087, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1921462095
