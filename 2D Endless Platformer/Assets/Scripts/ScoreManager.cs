@@ -23,6 +23,9 @@ public class ScoreManager : MonoBehaviour
         scoreCount += pointsPerSecond * Time.deltaTime;
         
         scoreText.text = "Score: " + Mathf.Round(scoreCount);
+
+        // Save Score across Scenes
+        PlayerPrefs.SetFloat("FinalScore", scoreCount);
     }
 
     public void AddScore(int points) {
