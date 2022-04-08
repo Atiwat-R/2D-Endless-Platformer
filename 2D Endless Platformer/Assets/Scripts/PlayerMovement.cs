@@ -55,9 +55,15 @@ public class PlayerMovement : MonoBehaviour
         if (value.isPressed) rigidbody2D.velocity -= new Vector2(rigidbody2D.velocity.x/2, 0f); // Slow down by half of current velocity
     }
 
-    // OnTriggerEnter2D is build-in to detect collisions and specify what happens.
+    // OnTriggerEnter2D is build-in to detect Trigger (2 objects overlap) and specify what happens.
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Enemies" || other.tag == "Hazards" ) {
+            TakeDamage();
+        }
+    }
+    // Detect Collision (2 objects bouncing off each other), to deal with enemies' solid Box collider
+    void OnCollisionEnter2D(Collision2D other) {
+        if (other.gameObject.tag == "Enemies" || other.gameObject.tag == "Hazards" ) {
             TakeDamage();
         }
     }
