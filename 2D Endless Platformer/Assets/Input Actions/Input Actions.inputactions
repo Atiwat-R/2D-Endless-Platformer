@@ -305,11 +305,33 @@
                 },
                 {
                     "name": "",
+                    "id": "dff78271-9f38-47e9-b2ba-4564cfe87725",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "46a003e0-26af-422d-9f3e-5f0da17819a5",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7d3fa291-36c0-4fbc-aa5e-79dea5df2ff1",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Brake",
                     "isComposite": false,
                     "isPartOfComposite": false
